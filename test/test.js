@@ -13,7 +13,7 @@ describe('Server Init', function () {
       .expect('Content-type', /text/)
       .expect(200)
       .end(function (err, res) {
-        // HTTP status should be 200
+        // HTTP status should be 200 OK2
         res.status.should.equal(200);
         done();
       });
