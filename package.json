@@ -8,6 +8,10 @@
     "type": "git",
     "url": "https://github.com/gonzalo-trenco/express-fileserver.git"
   },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --reporter spec test/*.js"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
