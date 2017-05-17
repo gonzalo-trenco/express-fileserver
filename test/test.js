@@ -2,8 +2,9 @@
 
 var supertest = require('supertest');
 var should = require('should');
+var app = require('../app.js').app;
 
-var server = supertest.agent('http://localhost:8080');
+var server = supertest.agent(app);
 
 describe('Server Init', function () {
 

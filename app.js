@@ -4,9 +4,9 @@
 // Express as webserver, and body-parser as our
 // middleware to parse body and url querys
 var express = require('express'),
-    bodyParser = require('body-parser'),
+    bodyParser = require('body-parser');
 
-    app = express(), // main server function
+var app = exports.app = express(), // main server function
     router = require('./router.js').http, // routes handler
 
     config = {
